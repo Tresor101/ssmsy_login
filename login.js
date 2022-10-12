@@ -1,7 +1,6 @@
 var logtry = 0;
-//Variable to count number of attempts. 
-//Below function Executes on click of login button.
 function authentication(){
+    logtry++; 
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
         if ( username === "admin@gmail.com" && password === "admin"){
@@ -15,7 +14,6 @@ function authentication(){
                 alert(logtry +"attempted made so far");
                 }
                 //Incrementing by one. 
-                logtry++; 
                 alert(logtry +"attempted made so far");
             }
 }

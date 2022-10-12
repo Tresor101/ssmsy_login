@@ -11,7 +11,7 @@
   background: beige;
 }
 
-.container .form-1 {
+.container .form {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -23,7 +23,7 @@
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
 }
 
-.form-1 h1 {
+.form h1 {
   text-align: center;
   margin-top: 0.7rem;
   margin-bottom: 1.5rem;
@@ -69,7 +69,7 @@ button {
     font-size: 15px;
   }
 
-  .container .form-1 {
+  .container .form{
     width: 300px;
   }
 }
@@ -79,7 +79,7 @@ button {
     font-size: 14px;
   }
 
-  .container .form-1 {
+  .container .form {
     width: 450px;
   }
 }
@@ -89,7 +89,7 @@ button {
     font-size: 18px;
   }
 
-  .container .form-1 {
+  .container .form {
     width: 540px;
     height: 550px;
   }
